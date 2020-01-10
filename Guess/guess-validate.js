@@ -3,7 +3,7 @@
 */
 
 var answer = Math.floor(Math.random()*100)+1;
-alert(answer);
+// console.log(answer);
 var guess = 0;
 var turns = 0;
 while (guess != answer){
@@ -20,5 +20,5 @@ if (guess == answer) alert("You got in "+turns+" turns");
 else alert("quitter");
 
 function validator(guess){
-  if(guess > && <101) return true;
+  if(guess > 0 && < 101) return true;
   else return false;
